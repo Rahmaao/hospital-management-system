@@ -1,0 +1,14 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.heading1{
+    font-family: Constantia;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
