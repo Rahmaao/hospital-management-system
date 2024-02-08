@@ -6,7 +6,7 @@ from django.db import models
 class Hospital(models.Model):
     name = models.CharField(max_length=200)
     address = models.CharField(max_length=200)
-    phone_number = models.IntegerField()
+    phone_number = models.CharField(max_length=20)
     email = models.EmailField()
     website = models.URLField(blank=True, null=True)
     capacity = models.IntegerField()

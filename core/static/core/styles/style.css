@@ -1,14 +1,93 @@
-body{
+body {
     background-color: lightgoldenrodyellow;
+    overflow: hidden;
 }
 
-.heading1{
-    font-family: Constantia;
+.container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 
 }
 
-.header{
+.content {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.image {
+    width: 50%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.text-content {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading1 {
+    width: 90%;
+    height: 50%;
+
+}
+
+.heading1 h1 {
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "Segoe UI", system-ui, sans-serif;
+
+}
+
+.heading2 p {
+    font-family: "Segoe UI Light";
+
+}
+
+.heading2 {
+    width: 60%;
+    height: 10%;
+    line-height: 0px;
+    margin-bottom: 10px;
+
+}
+
+.btn {
+    width: 25%;
+    height: 13%;
+    background-color: slateblue;
+    border-radius: 7px;
+
+}
+
+.btn p {
+    font-family: "Segoe UI";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 80%;
+    height: 80%;
+    background-image: url("/static/core/images/undraw_medicine_b-1-ol.svg");
+    background-position: center;
+    background-size: contain;
 }
